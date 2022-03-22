@@ -63,9 +63,3 @@ class Motor:
 
         if (tiposValidos.count(tipo) > 0):
             self.tipo = tipo
-
-if __name__ == "__main__":
-    a1 = Auto("model 3", 33000, [Asiento("blanco", 5000, 32),None, None, Asiento("blanco", 5000, 32), None],
-              "tesla", Motor(4, "electrico", 32), 32)
-
-    print(a1.cantidadAsientos())
