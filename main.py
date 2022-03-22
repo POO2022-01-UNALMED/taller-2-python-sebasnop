@@ -34,7 +34,7 @@ class Auto:
     def verificarIntegridad(self):
         integro = True
 
-        if (type(motor) == Motor):
+        if (type(self.motor) == Motor):
             if (motor.registro != self.registro):
                 integro = False
 
