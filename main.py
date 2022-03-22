@@ -35,7 +35,7 @@ class Auto:
         integro = True
 
         if (type(self.motor) == Motor):
-            if (motor.registro != self.registro):
+            if (self.motor.registro != self.registro):
                 integro = False
 
         if type(self.asientos) == list():
